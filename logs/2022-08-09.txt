@@ -1,0 +1,4 @@
+[09-Aug-2022 18:19:50 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/jlbokass/Sites/SPIEnergieBackend/public/index.php(32): Core\Router->dispatch('posts/index/bff')
+#1 {main}
+Thrown in '/Users/jlbokass/Sites/SPIEnergieBackend/Core/Router.php' on line 136

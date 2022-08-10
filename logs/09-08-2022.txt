@@ -1,0 +1,46 @@
+[09-Aug-2022 18:28:37 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/jlbokass/Sites/SPIEnergieBackend/public/index.php(32): Core\Router->dispatch('posts/index/bff')
+#1 {main}
+Thrown in '/Users/jlbokass/Sites/SPIEnergieBackend/Core/Router.php' on line 136
+[09-Aug-2022 18:28:49 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/jlbokass/Sites/SPIEnergieBackend/public/index.php(32): Core\Router->dispatch('posts/index/')
+#1 {main}
+Thrown in '/Users/jlbokass/Sites/SPIEnergieBackend/Core/Router.php' on line 136
+[09-Aug-2022 18:31:17 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/jlbokass/Sites/SPIEnergieBackend/public/index.php(32): Core\Router->dispatch('gghh')
+#1 {main}
+Thrown in '/Users/jlbokass/Sites/SPIEnergieBackend/Core/Router.php' on line 136
+[09-Aug-2022 18:32:48 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.php" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.php')
+#1 /Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.php')
+#2 /Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.php')
+#3 /Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/inde.php')
+#4 /Users/jlbokass/Sites/SPIEnergieBackend/Core/View.php(58): Twig\Environment->render('Home/inde.php', Array)
+#5 /Users/jlbokass/Sites/SPIEnergieBackend/App/Controllers/Home.php(51): Core\View::renderTemplate('Home/inde.php', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /Users/jlbokass/Sites/SPIEnergieBackend/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/SPIEnergieBackend/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/SPIEnergieBackend/public/index.php(32): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[09-Aug-2022 18:39:37 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/jlbokass/Sites/SPIEnergieBackend/public/index.php(32): Core\Router->dispatch('vbvb')
+#1 {main}
+Thrown in '/Users/jlbokass/Sites/SPIEnergieBackend/Core/Router.php' on line 136
+[09-Aug-2022 18:41:56 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/jlbokass/Sites/SPIEnergieBackend/public/index.php(32): Core\Router->dispatch('vbvb')
+#1 {main}
+Thrown in '/Users/jlbokass/Sites/SPIEnergieBackend/Core/Router.php' on line 136
+[09-Aug-2022 18:42:01 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.php" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.php')
+#1 /Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.php')
+#2 /Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.php')
+#3 /Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/inde.php')
+#4 /Users/jlbokass/Sites/SPIEnergieBackend/Core/View.php(58): Twig\Environment->render('Home/inde.php', Array)
+#5 /Users/jlbokass/Sites/SPIEnergieBackend/App/Controllers/Home.php(51): Core\View::renderTemplate('Home/inde.php', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /Users/jlbokass/Sites/SPIEnergieBackend/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/SPIEnergieBackend/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/SPIEnergieBackend/public/index.php(32): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/SPIEnergieBackend/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
