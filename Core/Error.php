@@ -17,18 +17,17 @@ class Error
     /**
      * Error handler. Convert all errors to Exceptions by throwing an ErrorException.
      *
-     * @param int $level Error level
-     * @param string $message Error message
-     * @param string $file Filename the error was raised in
-     * @param int $line Line number in the file
+     * @param int $level  Error level
+     * @param string $message  Error message
+     * @param string $file  Filename the error was raised in
+     * @param int $line  Line number in the file
      *
      * @return void
-     * @throws ErrorException
      */
-    public static function errorHandler(int $level, string $message, string $file, int $line)
+    public static function errorHandler(int $level, string $message, string $file, int $line):void
     {
         if (error_reporting() !== 0) {  // to keep the @ operator working
-            throw new \ErrorException($message, 0, $level, $file, $line);
+            throw new ErrorException($message, 0, $level, $file, $line);
         }
     }
 
@@ -39,7 +38,7 @@ class Error
      *
      * @return void
      */
-    public static function exceptionHandler(Exception $exception)
+    public static function exceptionHandler($exception)
     {
         // Code is 404 (not found) or 500 (general error)
         $code = $exception->getCode();
@@ -64,6 +63,7 @@ class Error
             $message .= "\nThrown in '" . $exception->getFile() . "' on line " . $exception->getLine();
 
             error_log($message);
+
             View::renderTemplate("$code.html");
         }
     }
