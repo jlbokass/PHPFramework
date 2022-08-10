@@ -1,5 +1,6 @@
+# https://stackoverflow.com/questions/23635746/htaccess-redirect-from-site-root-to-public-folder-hiding-public-in-url
 RewriteEngine On
-RewriteBase /SPIEnergieBackend/
+RewriteBase /PHPFramework/
 
 RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
 RewriteRule ^ %1 [L,NE,R=302]
