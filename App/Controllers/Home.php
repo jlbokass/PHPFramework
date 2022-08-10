@@ -40,7 +40,7 @@ class Home extends Controller
      */
     public function indexAction(): void
     {
-        View::renderTemplate('Home/index.php', [
+        View::renderTemplate('Home/index.html', [
             'name' => 'John',
             'colours' => ['red', 'green', 'blue']
         ]);

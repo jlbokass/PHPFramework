@@ -1,0 +1,117 @@
+[10-Aug-2022 09:14:58 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/index.php" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/index.php')
+#1 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/index.php')
+#2 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/index.php')
+#3 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/index.php')
+#4 /Users/jlbokass/Sites/PHPFramework/Core/View.php(58): Twig\Environment->render('Home/index.php', Array)
+#5 /Users/jlbokass/Sites/PHPFramework/App/Controllers/Home.php(44): Core\View::renderTemplate('Home/index.php', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /Users/jlbokass/Sites/PHPFramework/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/PHPFramework/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/PHPFramework/public/index.php(32): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[10-Aug-2022 09:15:40 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/index.php" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/index.php')
+#1 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/index.php')
+#2 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/index.php')
+#3 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/index.php')
+#4 /Users/jlbokass/Sites/PHPFramework/Core/View.php(58): Twig\Environment->render('Home/index.php', Array)
+#5 /Users/jlbokass/Sites/PHPFramework/App/Controllers/Home.php(44): Core\View::renderTemplate('Home/index.php', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /Users/jlbokass/Sites/PHPFramework/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/PHPFramework/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/PHPFramework/public/index.php(32): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[10-Aug-2022 09:16:53 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/index.php" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/index.php')
+#1 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/index.php')
+#2 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/index.php')
+#3 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/index.php')
+#4 /Users/jlbokass/Sites/PHPFramework/Core/View.php(58): Twig\Environment->render('Home/index.php', Array)
+#5 /Users/jlbokass/Sites/PHPFramework/App/Controllers/Home.php(44): Core\View::renderTemplate('Home/index.php', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /Users/jlbokass/Sites/PHPFramework/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/PHPFramework/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/PHPFramework/public/index.php(32): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[10-Aug-2022 09:16:58 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Signup/index.html" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Signup/index.ht...')
+#1 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Signup/index.ht...')
+#2 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Signup/index.ht...')
+#3 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Signup/index.ht...')
+#4 /Users/jlbokass/Sites/PHPFramework/Core/View.php(58): Twig\Environment->render('Signup/index.ht...', Array)
+#5 /Users/jlbokass/Sites/PHPFramework/App/Controllers/Signup.php(23): Core\View::renderTemplate('Signup/index.ht...')
+#6 [internal function]: App\Controllers\Signup->indexAction()
+#7 /Users/jlbokass/Sites/PHPFramework/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/PHPFramework/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/PHPFramework/public/index.php(32): Core\Router->dispatch('signup/index')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[10-Aug-2022 09:17:01 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/index.php" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/index.php')
+#1 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/index.php')
+#2 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/index.php')
+#3 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/index.php')
+#4 /Users/jlbokass/Sites/PHPFramework/Core/View.php(58): Twig\Environment->render('Home/index.php', Array)
+#5 /Users/jlbokass/Sites/PHPFramework/App/Controllers/Home.php(44): Core\View::renderTemplate('Home/index.php', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /Users/jlbokass/Sites/PHPFramework/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/PHPFramework/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/PHPFramework/public/index.php(32): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[10-Aug-2022 09:17:08 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Signup/index.html" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Signup/index.ht...')
+#1 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Signup/index.ht...')
+#2 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Signup/index.ht...')
+#3 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Signup/index.ht...')
+#4 /Users/jlbokass/Sites/PHPFramework/Core/View.php(58): Twig\Environment->render('Signup/index.ht...', Array)
+#5 /Users/jlbokass/Sites/PHPFramework/App/Controllers/Signup.php(23): Core\View::renderTemplate('Signup/index.ht...')
+#6 [internal function]: App\Controllers\Signup->indexAction()
+#7 /Users/jlbokass/Sites/PHPFramework/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/PHPFramework/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/PHPFramework/public/index.php(32): Core\Router->dispatch('signup/index')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[10-Aug-2022 09:17:11 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/index.php" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/index.php')
+#1 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/index.php')
+#2 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Home/index.php')
+#3 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Home/index.php')
+#4 /Users/jlbokass/Sites/PHPFramework/Core/View.php(58): Twig\Environment->render('Home/index.php', Array)
+#5 /Users/jlbokass/Sites/PHPFramework/App/Controllers/Home.php(44): Core\View::renderTemplate('Home/index.php', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /Users/jlbokass/Sites/PHPFramework/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/PHPFramework/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/PHPFramework/public/index.php(32): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[10-Aug-2022 09:17:36 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Signup/index.html" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Signup/index.ht...')
+#1 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Signup/index.ht...')
+#2 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Signup/index.ht...')
+#3 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Signup/index.ht...')
+#4 /Users/jlbokass/Sites/PHPFramework/Core/View.php(58): Twig\Environment->render('Signup/index.ht...', Array)
+#5 /Users/jlbokass/Sites/PHPFramework/App/Controllers/Signup.php(23): Core\View::renderTemplate('Signup/index.ht...')
+#6 [internal function]: App\Controllers\Signup->indexAction()
+#7 /Users/jlbokass/Sites/PHPFramework/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/PHPFramework/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/PHPFramework/public/index.php(32): Core\Router->dispatch('signup/index')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
+[10-Aug-2022 09:17:43 Europe/Paris] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Signup/index.html" (looked into: ../App/Views).'
+Stack trace: #0 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Signup/index.ht...')
+#1 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Signup/index.ht...')
+#2 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('Signup/index.ht...')
+#3 /Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('Signup/index.ht...')
+#4 /Users/jlbokass/Sites/PHPFramework/Core/View.php(58): Twig\Environment->render('Signup/index.ht...', Array)
+#5 /Users/jlbokass/Sites/PHPFramework/App/Controllers/Signup.php(23): Core\View::renderTemplate('Signup/index.ht...')
+#6 [internal function]: App\Controllers\Signup->indexAction()
+#7 /Users/jlbokass/Sites/PHPFramework/Core/Controller.php(51): call_user_func_array(Array, Array)
+#8 /Users/jlbokass/Sites/PHPFramework/Core/Router.php(124): Core\Controller->__call('index', Array)
+#9 /Users/jlbokass/Sites/PHPFramework/public/index.php(32): Core\Router->dispatch('signup/index')
+#10 {main}
+Thrown in '/Users/jlbokass/Sites/PHPFramework/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 227
