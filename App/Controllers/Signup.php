@@ -35,8 +35,9 @@ class Signup extends Controller
 
         if ($user->save()) {
 
-            header('Location: http://' . $_SERVER['HTTP_HOST'] . '/PHPFramework/signup/success', true, 303);
-            exit;
+            $user->sendActivationEmail();
+
+            $this->redirect('/PHPFramework/signup/success');
 
         } else {
 
@@ -55,5 +56,28 @@ class Signup extends Controller
     public function successAction(): void
     {
         View::renderTemplate('Signup/success.html');
+    }
+
+
+    /**
+     * Activate a new account
+     *
+     * @return void
+     */
+    public function activateAction(): void
+    {
+        User::activate($this->route_params['token']);
+
+        $this->redirect('/PHPFramework/signup/activated');
+    }
+
+    /**
+     * Show the activation success page
+     *
+     * @return void
+     */
+    public function activatedAction()
+    {
+        View::renderTemplate('Signup/activated.html');
     }
 }
