@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block body %}
+
+    <h1>Profile</h1>
+
+    <!-- http://html5doctor.com/the-dl-element/ -->
+    <dl>
+        <dt>Name</dt>
+        <dd>{{ user.name }}</dd>
+        <dt>Email</dt>
+        <dt>{{ user.email }}</dt>
+    </dl>
+
+    <a href="/PHPFramework/profile/edit">Edit</a>
+
+{% endblock %}
