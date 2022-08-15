@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}Login form{% endblock %}
+
+{% block body %}
+
+<h1>Login</h1>
+
+{% if user.errors is not empty %}
+<p>Errors:</p>
+<ul>
+    {% for error in user.errors %}
+    <li>{{ error }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<form method="post" action="/PHPFramework/login/create" id="formLogin">
+    <div>
+        <label for="inputEmail">Email address</label>
+        <input id="inputEmail" name="email" placeholder="email address" type="email" autofocus value="{{ email }}" />
+    </div>
+    <div>
+        <label for="inputPassword">Password</label>
+        <input type="password" id="inputPassword" name="password" placeholder="Password" />
+    </div>
+
+    <div>
+        <label for="remember_me">
+            <input type="checkbox" name="remember_me" id="remember_me" {% if remember_me %} checked="checked" {% endif %}> Remember me
+        </label>
+    </div>
+
+    <button type="submit">Log in</button>
+</form>
+
+<p><a href="password/forgot">Password forgot ?</a></p>
+
+{% endblock %}
