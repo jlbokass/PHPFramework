@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %} Home {% endblock %}
+
+{% block body %}
+<h1>Welcome</h1>
+
+{% if current_user %}
+    <p>Hello {{ current_user.name }} You're successfully log in !</p>
+{% else %}
+    <p>You must <a href="/PHPFramework/signup/new">Signup</a> or <a href="/PHPFramework/login">Log in</a></p>
+{% endif %}
+
+{% endblock %}

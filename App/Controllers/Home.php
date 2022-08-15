@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Auth;
+use App\Services\Mail;
 use Core\Controller;
 use Core\View;
 
@@ -13,36 +15,13 @@ use Core\View;
 class Home extends Controller
 {
     /**
-     * Before filter
-     *
-     * @return void
-     */
-    protected function before()
-    {
-        // echo "(before) ";
-        //return false;
-    }
-
-    /**
-     * After filter
-     *
-     * @return void
-     */
-    protected function after()
-    {
-        // echo " (after)";
-    }
-
-    /**
      * Show the index page
      *
      * @return void
      */
     public function indexAction(): void
     {
-        View::renderTemplate('Home/index.html', [
-            'name' => 'John',
-            'colours' => ['red', 'green', 'blue']
-        ]);
+        // Mail::sent('naullereigeicroi-6728@yopmail.com', 'test 2', 'This is a test 2','<h1>This is a test 2</h1><p>Ah Ah Ha</p>');
+        View::renderTemplate('Home/index.html.twig');
     }
 }

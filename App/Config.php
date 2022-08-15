@@ -38,4 +38,29 @@ class Config
      * Show or hide error message on screen
      */
     const SHOW_ERRORS = true;
+
+    /**
+     * Secret key for hashing
+     * url : https://randomkeygen.com/
+     * @var boolean
+     */
+    const SECRET_KEY = '0naflXhOBjLzH6AsScRpONKSUn2j8WUx';
+
+    /**
+     * Email host
+     * @var string
+     */
+    const EMAIL_HOST = 'mail.2-for-you.fr';
+
+    /**
+     * Email username
+     * @var string
+     */
+    const EMAIL_USERNAME = 'leakmanager@2-for-you.fr';
+
+    /**
+     * Email password
+     * @var string
+     */
+    const EMAIL_PASSWORD = '?t]vfyRFV_N3';
 }

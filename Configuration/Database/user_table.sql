@@ -33,3 +33,26 @@ ALTER TABLE users
 --
 ALTER TABLE users
     MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- Additional columns for password reset
+--
+
+ALTER TABLE `users`
+    ADD `password_reset_hash` VARCHAR(64) NULL DEFAULT NULL AFTER `password_hash`,
+    ADD `password_reset_expires_at` DATETIME NULL DEFAULT NULL AFTER `password_reset_hash`,
+    ADD UNIQUE (`password_reset_hash`);
+
+--
+-- Additional columns for account activation
+--
+
+ALTER TABLE `users`
+    ADD `activation_hash` VARCHAR(64) NULL DEFAULT NULL AFTER `password_reset_expires_at`,
+    ADD `is_active` BOOLEAN NOT NULL DEFAULT FALSE AFTER `activation_hash`,
+    ADD UNIQUE (`activation_hash`);
+
+--
+-- Truncate user table
+--
+TRUNCATE TABLE `users`;

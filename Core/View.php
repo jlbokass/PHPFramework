@@ -2,6 +2,8 @@
 
 namespace Core;
 
+use App\Auth;
+use App\Flash;
 use Exception;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
@@ -48,13 +50,29 @@ class View
      */
     public static function renderTemplate(string $template, array $args = []): void
     {
+        echo static::getTemplate($template, $args);
+    }
+
+    /**
+     * Render a view template using Twig : https://twig.symfony.com/doc/3.x/api.html
+     *
+     * @param string $template  The template file
+     * @param array $args  Associative array of data to display in the view (optional)
+     *
+     * @return string
+     */
+    public static function getTemplate(string $template, array $args = []): string
+    {
         static $twig = null;
 
         if ($twig === null) {
             $loader = new FilesystemLoader('../App/Views');
             $twig = new Environment($loader);
+            $twig->addGlobal('session', $_SESSION);
+            $twig->addGlobal('current_user', Auth::getUser());
+            $twig->addGlobal('flash_messages', Flash::getMessages());
         }
 
-        echo $twig->render($template, $args);
+        return $twig->render($template, $args);
     }
 }
