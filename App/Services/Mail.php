@@ -2,10 +2,8 @@
 
 namespace App\Services;
 
-use App\Config;
 use Exception;
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 
 /**
  * Class Mail

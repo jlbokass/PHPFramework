@@ -7,12 +7,14 @@
     <h1>Profile</h1>
 
     <!-- http://html5doctor.com/the-dl-element/ -->
-    <dl>
-        <dt>Name</dt>
-        <dd>{{ user.name }}</dd>
-        <dt>Email</dt>
-        <dt>{{ user.email }}</dt>
-    </dl>
+    <div class="container">
+        <dl class="dl-horizontal">
+            <dt>Name</dt>
+            <dd>{{ user.name }}</dd>
+            <dt>Email</dt>
+            <dd>{{ user.email }}</dd>
+        </dl>
+    </div>
 
     <a href="/PHPFramework/profile/edit">Edit</a>
 

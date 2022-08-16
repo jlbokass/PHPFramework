@@ -2,8 +2,8 @@
 
 namespace Core;
 
-use App\Auth;
-use App\Flash;
+use App\Services\Auth;
+use App\Services\Flash;
 use Exception;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;

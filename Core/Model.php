@@ -2,9 +2,8 @@
 
 namespace Core;
 
+use App\Services\Config;
 use PDO;
-use App\Config;
-use PDOException;
 
 /**
  * Base model

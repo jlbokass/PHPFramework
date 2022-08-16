@@ -2,9 +2,9 @@
 
 namespace App\Controllers;
 
-use App\Auth;
-use App\Flash;
 use App\Models\User;
+use App\Services\Auth;
+use App\Services\Flash;
 use Core\Controller;
 use Core\View;
 

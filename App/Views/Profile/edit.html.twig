@@ -71,21 +71,21 @@
 
     <form method="post" action="../profile/update" id="formProfile">
 
-        <div>
+        <div class="form-group">
             <label for="inputName">Name</label>
-            <input id="inputName" name="name" placeholder="Name" value="{{ user.name }}" required />
+            <input id="inputName" class="form-control" name="name" placeholder="Name" value="{{ user.name }}" required />
         </div>
-        <div>
+        <div class="form-group">
             <label for="inputEmail">Email address</label>
-            <input id="inputEmail" name="email" placeholder="email address" value="{{ user.email }}" required type="email" />
+            <input id="inputEmail" class="form-control" name="email" placeholder="email address" value="{{ user.email }}" required type="email" />
         </div>
-        <div>
+        <div class="form-group">
             <label for="inputPassword">Password</label>
-            <input type="password" id="inputPassword" name="password" placeholder="Password" aria-describedby="helpBlock" />
-            <span id="helpBlock">Leave blank to keep current password</span>
+            <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password" aria-describedby="helpBlock" />
+            <span id="helpBlock" class="help-block">Leave blank to keep current password</span>
         </div>
 
-        <button type="submit">Save</button>
+        <button type="submit" class="btn btn-outline-secondary">Save</button>
         <a href="/PHPFramework/profile/show">Cancel</a>
 
     </form>

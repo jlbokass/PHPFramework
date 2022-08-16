@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Services;
 
 /**
  * Application configuration
@@ -14,53 +14,53 @@ class Config
      * Database host
      * @var string
      */
-    const DB_HOST = 'localhost';
+    public const DB_HOST = 'localhost';
 
     /**
      * Database name
      * @var string
      */
-    const DB_NAME = 'php_mvc';
+    public const DB_NAME = 'php_mvc';
 
     /**
      * Database user
      * @var string
      */
-    const DB_USER = 'root';
+    public const DB_USER = 'root';
 
     /**
      * Database password
      * @var string
      */
-    const DB_PASSWORD = 'dabok1977';
+    public const DB_PASSWORD = 'dabok1977';
 
     /**
      * Show or hide error message on screen
      */
-    const SHOW_ERRORS = true;
+    public const SHOW_ERRORS = true;
 
     /**
      * Secret key for hashing
      * url : https://randomkeygen.com/
-     * @var boolean
+     * @var bool
      */
-    const SECRET_KEY = '0naflXhOBjLzH6AsScRpONKSUn2j8WUx';
+    public const SECRET_KEY = '0naflXhOBjLzH6AsScRpONKSUn2j8WUx';
 
     /**
      * Email host
      * @var string
      */
-    const EMAIL_HOST = 'mail.2-for-you.fr';
+    public const EMAIL_HOST = 'mail.2-for-you.fr';
 
     /**
      * Email username
      * @var string
      */
-    const EMAIL_USERNAME = 'leakmanager@2-for-you.fr';
+    public const EMAIL_USERNAME = 'leakmanager@2-for-you.fr';
 
     /**
      * Email password
      * @var string
      */
-    const EMAIL_PASSWORD = '?t]vfyRFV_N3';
+    public const EMAIL_PASSWORD = '?t]vfyRFV_N3';
 }

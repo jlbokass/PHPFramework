@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use App\Auth;
-use App\Flash;
+use App\Services\Auth;
+use App\Services\Flash;
 use Core\View;
 
 /**

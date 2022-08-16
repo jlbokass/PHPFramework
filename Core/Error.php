@@ -2,7 +2,7 @@
 
 namespace Core;
 
-use App\Config;
+use App\Services\Config;
 use ErrorException;
 use Exception;
 

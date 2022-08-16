@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Services;
 
 /**
  * class Flash
@@ -14,21 +14,21 @@ class Flash
      *
      *@var string
      */
-    const SUCCESS = 'success';
+    public const SUCCESS = 'success';
 
     /**
      * Information message type
      *
      *@var string
      */
-    const INFO = 'info';
+    public const INFO = 'info';
 
     /**
      * Warning message type
      *
      *@var string
      */
-    const WARNING = 'warning';
+    public const WARNING = 'warning';
 
     /**
      * Add message

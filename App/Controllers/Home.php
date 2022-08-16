@@ -2,8 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Auth;
-use App\Services\Mail;
 use Core\Controller;
 use Core\View;
 
